@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/newsFragment">
+
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.minhaz_uddin.midtermproject.ui.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/businessFragment"
+        android:name="com.minhaz_uddin.midtermproject.ui.BusinessFragment"
+        android:label="fragment_business"
+        tools:layout="@layout/fragment_business" />
+    <fragment
+        android:id="@+id/scienceFragment"
+        android:name="com.minhaz_uddin.midtermproject.ui.ScienceFragment"
+        android:label="fragment_science"
+        tools:layout="@layout/fragment_science" />
+    <fragment
+        android:id="@+id/entertainmentFragment"
+        android:name="com.minhaz_uddin.midtermproject.ui.EntertainmentFragment"
+        android:label="fragment_entertainment"
+        tools:layout="@layout/fragment_entertainment" />
+    <fragment
+        android:id="@+id/sportsFragment"
+        android:name="com.minhaz_uddin.midtermproject.ui.SportsFragment"
+        android:label="fragment_sports"
+        tools:layout="@layout/fragment_sports" />
+    <fragment
+        android:id="@+id/detailNews"
+        android:name="com.minhaz_uddin.midtermproject.ui.DetailNews"
+        android:label="fragment_detail_news"
+        tools:layout="@layout/fragment_detail_news" />
+    <fragment
+        android:id="@+id/bookmarkFragment"
+        android:name="com.minhaz_uddin.midtermproject.ui.BookmarkFragment"
+        android:label="fragment_bookmark"
+        tools:layout="@layout/fragment_bookmark" />
+</navigation>
